@@ -38,8 +38,8 @@ def fetch_and_print_grid(doc_url):
         for x in range(max_x + 1):
             row_chars.append(grid_dict.get((y, x), ' '))
         print(' '.join(row_chars))
-        
+
 # Using URL given: 
-url = "https://docs.google.com/document/d/e/2PACX-1vRMx5YQlZNa3ra8dYYxmv-QIQ3YJe8tbI3kqcuC7lQiZm-CSEznKfN_HYNSpoXcZIV3Y_O3YoUB1ecq/pub"
+url = "https://docs.google.com/document/d/e/2PACX-1vTER-wL5E8YC9pxDx43gk8eIds59GtUUk4nJo_ZWagbnrH0NFvMXIw6VWFLpf5tWTZIT9P9oLIoFJ6A/pub"
 
 fetch_and_print_grid(url)
